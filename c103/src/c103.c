@@ -11,6 +11,7 @@
 #include "dice_roller.h"
 #include "circle_area_finder.h"
 #include "cube_volume_finder.h"
+#include "special_reverser.h"
 
 void print_goodbye(void);
 

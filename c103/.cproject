@@ -14,7 +14,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.244843385" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.244843385" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug" postbuildStep="">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.244843385." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.501892285" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.492426553" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
@@ -31,28 +31,28 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.pic.1393449281" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.14289139" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.278290723" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
 								<option id="gnu.c.link.option.paths.390114928" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core/Release}&quot;"/>
 								</option>
 								<option id="gnu.c.link.option.libs.120911994" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="file_core"/>
-									<listOptionValue builtIn="false" value="geometry_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="geometry_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="debug_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="conversion_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="console_core"/>
 									<listOptionValue builtIn="false" value="m"/>
-									<listOptionValue builtIn="false" value="debug_core"/>
-									<listOptionValue builtIn="false" value="conversion_core"/>
-									<listOptionValue builtIn="false" value="console_core"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.757610685" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -78,35 +78,35 @@
 				<externalSettings containerId="console_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/console_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/console_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/console_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="console_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<externalSettings containerId="conversion_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/conversion_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/conversion_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/conversion_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="conversion_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<externalSettings containerId="debug_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/debug_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/debug_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/debug_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="debug_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<externalSettings containerId="geometry_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/geometry_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/geometry_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/geometry_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="geometry_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<externalSettings containerId="file_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/file_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/file_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/file_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="file_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
@@ -125,7 +125,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.2058375850" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.2058375850" name="Release" parent="cdt.managedbuild.config.gnu.exe.release" postbuildStep="">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.2058375850." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.889677356" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.389918764" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
@@ -139,29 +139,31 @@
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.889532666" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.release.option.debugging.level.720641537" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1233920972" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.pic.446504237" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.701627891" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1874546583" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
 								<option id="gnu.c.link.option.paths.396439481" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core/Release}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core/Release}&quot;"/>
 								</option>
 								<option id="gnu.c.link.option.libs.1705985246" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="console_core"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="geometry_core"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="file_core"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="debug_core"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="conversion_core"/>
+									<listOptionValue builtIn="false" value="file_core"/>
+									<listOptionValue builtIn="false" value="geometry_core"/>
+									<listOptionValue builtIn="false" value="debug_core"/>
+									<listOptionValue builtIn="false" value="conversion_core"/>
+									<listOptionValue builtIn="false" value="console_core"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1003111875" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -198,24 +200,24 @@
 						<entry flags="RESOLVED" kind="libraryFile" name="debug_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
-				<externalSettings containerId="file_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+				<externalSettings containerId="file_core;cdt.managedbuild.config.gnu.so.release.1004534841" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/file_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/file_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/file_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="file_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
-				<externalSettings containerId="geometry_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+				<externalSettings containerId="geometry_core;cdt.managedbuild.config.gnu.so.release.1967543323" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/geometry_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/geometry_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/geometry_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="geometry_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
-				<externalSettings containerId="console_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+				<externalSettings containerId="console_core;cdt.managedbuild.config.gnu.so.release.48587169" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/console_core"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/console_core/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/console_core/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="console_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>

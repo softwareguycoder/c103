@@ -16,7 +16,7 @@
 void save_results_to_file(const char* format_string, double results) {
 	char path_buff[256];	 /* 256 = MAX_PATH + 1 */
 
-	do_prompt_file_name("> Enter a file name to save your results to (blank to cancel) > ", path_buff, 256);
+	do_prompt_file_name("\n> Path for saving results (blank to cancel) > ", path_buff, 256);
 
 	if (path_buff[0] == '\0' || strlen(path_buff) == 0) {
 		printf("\nNot saving to a file.\n");
