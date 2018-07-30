@@ -20,7 +20,7 @@
 #include <time.h>
 
 #include <include/conversion_core.h>
-#include <console_core/include/console_core.h>
+#include <include/console_core.h>
 #include <include/debug_core.h>
 #include <include/geometry_core.h>
 #include <include/file_core.h>
