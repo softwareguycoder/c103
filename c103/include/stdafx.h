@@ -23,6 +23,9 @@
 #include <console_core/include/console_core.h>
 #include <include/debug_core.h>
 #include <include/geometry_core.h>
+#include <include/file_core.h>
+
+void save_results_to_file(const char* format_string, double results);
 
 #include "resource.h"
 

@@ -10,7 +10,7 @@
 #include "circle_area_finder.h"
 
 long get_radius(void);
-void save_results_to_file(void);
+void save_results_to_file(double results);
 
 char* circle_area_titlebar[4] = {
 	"==================================================================",
@@ -30,7 +30,11 @@ void launch_circle_area_finder() {
 
 	printf("\nThe area of the circle is approx. %0.2f square inches!\n", area);
 
-	save_results_to_file();
+	/* Allow the user the option to save to a file */
+	save_results_to_file("The area of the circle is approx. %0.2f square inches!", area);
+
+	/* Allow the user the option to save to a file */
+	save_results_to_file(area);
 
 	prompt_for_key_press();
 }
@@ -68,8 +72,3 @@ long get_radius(void) {
 	return result;
 }
 
-/** Prompts the user to save the results to a file for later reference. */
-
-void save_results_to_file(void) {
-
-}

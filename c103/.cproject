@@ -139,22 +139,25 @@
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.889532666" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.release.option.debugging.level.720641537" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1233920972" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core}&quot;"/>
 								</option>
-								<option id="gnu.c.compiler.option.misc.pic.446504237" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.pic.446504237" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.701627891" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1874546583" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
 								<option id="gnu.c.link.option.paths.396439481" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core/Release}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/conversion_core/Release}&quot;"/>
 								</option>
 								<option id="gnu.c.link.option.libs.1705985246" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="console_core"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="geometry_core"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="file_core"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="debug_core"/>
@@ -168,6 +171,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.2099823188" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.1321251569" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
 								<option id="gnu.both.asm.option.include.paths.21777617" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/console_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geometry_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/file_core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/debug_core}&quot;"/>
@@ -206,6 +210,13 @@
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/geometry_core"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/geometry_core/Debug"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="geometry_core" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="console_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/console_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/console_core/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="console_core" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 			</storageModule>

@@ -11,6 +11,7 @@
 
 long get_side_length(void);
 
+
 char* cube_volume_titlebar[4] = {
 	"==================================================================",
 	"==                      CUBE VOLUME FINDER                      ==",
@@ -28,6 +29,9 @@ void launch_cube_volume_finder() {
 	double volume = volume_of_cube((double)side_length);
 
 	printf("\nThe volume of the cube is approx. %0.2f cubic meters!\n", volume);
+
+	/* Allow the user the option to save to a file */
+	save_results_to_file("The volume of the cube is approx. %0.2f cubic meters!", volume);
 
 	prompt_for_key_press();
 }
