@@ -42,7 +42,7 @@ void launch_special_reverser() {
 char* get_string_to_reverse(void) {
 	char* result_buffer = malloc(MAX_INPUT + 1);
 
-	int retcode = get_line("> Phrase to reverse (max. 255 chars): >",
+	int retcode = get_line("> Phrase to reverse (max. 255 chars): > ",
 			result_buffer, MAX_INPUT + 1);
 
 	if (retcode != OK && retcode != EXACTLY_CORRECT) {

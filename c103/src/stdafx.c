@@ -30,5 +30,5 @@ void save_results_to_file(const char* format_string, double results) {
 
 	save_text_to_file(path_buff, format_string, results);
 
-	printf("\nYour results have been saved to the file '%s'.", path_buff);
+	printf("\nYour results have been saved to the file '%s'.\n", path_buff);
 }

@@ -41,7 +41,7 @@ long get_side_length(void) {
 
 	char side_length_buffer[3];
 
-	int retcode = get_line("> Enter side length of cube (max. 99 meters)? >", side_length_buffer, 3);
+	int retcode = get_line("> Enter side length of cube (max. 99 meters)? > ", side_length_buffer, 3);
 
 	if ((retcode != OK && retcode != EXACTLY_CORRECT) || !is_numbers_only(side_length_buffer)) {
 		printf("ERROR: Please input a numeric value not greater than 99 meters.\n");

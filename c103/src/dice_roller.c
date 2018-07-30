@@ -111,7 +111,7 @@ Die* get_dice(int* dice_count){
 int get_number_of_dice(){
 	char output_buff[2];
 
-	get_line_with_default("> How many dice do you want (1-5) ? >", output_buff, "3", 2);
+	get_line_with_default("> How many dice do you want (1-5) ? > ", output_buff, "3", 2);
 
 	long result = 0;
 
@@ -130,7 +130,7 @@ int get_number_of_sides(int dice_index){
 
 	char prompt_buff[49];
 
-	sprintf(prompt_buff, "\n> How many sides should die #%d have? (6-100) >", dice_index + 1);
+	sprintf(prompt_buff, "\n> How many sides should die #%d have? (6-100) > ", dice_index + 1);
 
 	get_line_with_default(prompt_buff, output_buff, "6", 4);
 
@@ -150,7 +150,7 @@ int get_number_of_rolls()
 {
 	char output_buff[2];
 
-	get_line_with_default("> How many times should we roll all the dice? (1-5) >", output_buff, "3", 2);
+	get_line_with_default("> How many times should we roll all the dice? (1-5) > ", output_buff, "3", 2);
 
 	long result = 0;
 

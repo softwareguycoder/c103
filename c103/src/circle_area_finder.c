@@ -40,7 +40,7 @@ long get_radius(void) {
 
 	char radius_buffer[3];
 
-	int retcode = get_line("> Enter radius of circle (max. 99 inches)? >", radius_buffer, 3);
+	int retcode = get_line("> Enter radius of circle (max. 99 inches)? > ", radius_buffer, 3);
 
 	if ((retcode != OK && retcode != EXACTLY_CORRECT) || !is_numbers_only(radius_buffer)) {
 		printf("ERROR: Please input a number not greater than 999 inches.\n");
